@@ -1,0 +1,188 @@
+.navbar {
+  display: none;
+}
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 4px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -5px;
+  }
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.navbar-toggle:focus {
+  outline: 0;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: none;
+  }
+}
+.navbar-nav {
+  margin: 7.5px -15px;
+}
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+@media (max-width: 767px) {
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+  .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 20px;
+  }
+  .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-image: none;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  .navbar-nav > li {
+    float: left;
+  }
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+/* define o tamanho do centro*/
+
+@media (min-width: 300px) {
+  .container {
+    width: 300px;
+  }
+}
+
+/* formulário de cadastro de clientes*/
+body {font-family: Verdana;}
+#painel{
+position: absolute;
+left: 27%;
+width: 450px;
+height: 272px;
+padding: 10px;
+color: #c0c0c0;
+/*background-color: #305099;*/
+}
+.formulario {
+    padding: 5px;
+    width:600px;
+}
+
+.input1{
+  margin: 10px 0px 0px 5px;
+  font-size: 12px;
+  }
+  
+.input2{
+    margin: 10px 0px 0px 5px;
+    font-size: 12px;
+    width:160px;
+}
+  
+
+.input3{
+margin: 10px 0px 0px 4px;
+font-size: 12px;
+}
+
+.input4{
+margin: 10px 0px 0px 4px;
+font-size: 12px;
+width: 135px;
+}
+
+
+.input5{
+margin: 10px 0px 0px 0px;
+font-size: 12px;
+}
+
+.input6{
+margin: 10px 0px 0px 0px;
+font-size: 12px;
+}
+.input7{
+  margin: 10px 0px 0px 0px;
+  font-size: 12px;
+  }
+  
+  .input8{
+    margin: 10px 0px 0px 0px;
+    font-size: 12px;
+    width:280px;
+    }
+    .input9{
+      margin: 10px 0px 0px 0px;
+      font-size: 12px;
+      width: 275px;
+      }
+      
+    
+.label1, .label2, .label3, .label4, .label5, .label6,label7,label8{
+font-size: 12px;
+margin: 0px 0px 20px 0px;
+_margin: 0px 0px 20px 5px;
+}
+
+
+
+.legend{
+font-size: 12px;
+font-weight: bold;
+margin: 0px 0px 0px 0px;
+}
+.enviar {
+color: #c0c0c0;
+font-size: 12px;
+background-color: #5070aa;
+margin:10px 0px 0px 0px;
+_margin: 10px 0px 0px 5px;
+}

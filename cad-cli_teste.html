@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>cadastro de funcionarios</title>
+</head>
+
+<body>
+
+        <nav class="navbar- navbar-inverse">
+            <div class="container-fluid">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cadastros
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="cad-cli.html">Clientes</a></li>
+                    <li><a href="#">Fornecedores</a></li>
+                    <li><a href="#">Funcionários</a></li>
+                    <li><a href="#">Manutenções</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="login.html">Login</a></li>
+    
+                </ul>
+            </div>
+          </nav>
+
+          <div id="painel">
+              <form class="formulario"  action="#">
+                     <fieldset class="conjunto" name="cadastro">
+                       <legend class="legend" name="nome"> Cadastro de cientes</legend>
+                            <label class="label1" name="lblNick">Nome: </label> <input class="input1" type="text" name="nome" value="" size="20">
+                            <label class="label2" name="lblrua">Rua</label> <input class="input2" type="text" name="rua" value="" size="20"><br>
+                            <label class="label3" name="lblbairro">Bairro</label> <input class="input3" type="text" name="bairro" value="" size="20">
+                            <label class="label4" name="lblnumero">Número</label> <input class="input4" type="number" name="numero" value="" size="20"><br>
+                            <label class="label5" name="lblcidade">cidade</label>
+                            <select class="input5" name="cidade" id="cidade">
+                            <option value="hulha">Hulha Negra</option>
+                            <option value="bage">Bagé</option>
+                            <option value="Dom">Dom Pedrito</option>
+                            <option value="acegua">Aceguá</option>
+                            </select>
+                            <label class="label6" name="lblestado">Estado</label>
+                            <select class="input6" name="estado" id="estado">
+                                <option value="rs">RS</option>
+                                <option value="sc">SC</option>
+                           </select>
+                           <label class="label7" name="lblestado">Possui CFTV?</label>
+                            <select class="input7" name="cftv" id="cftv">
+                                <option value="sim">SIM</option>
+                                <option value="nao">NÃO</option>
+                            </select>
+                            <br>
+                            <label class="label8" name="lblnumero">Data de instalação</label> <input class="input8" type="date" name="data" value="" size="20"><br>
+                            <br>
+                            <label class="label9" name="lblreferencia">Referencia do Local</label>
+                            <textarea class="input9">
+                            </textarea> 
+                            <p><input class="enviar" name="btnEnviar" type="submit" value="Enviar">
+                              <input class="enviar" name="btnEnviar" type="reset" value="Limpar"></p>
+                      </fieldset>
+              </form>
+          </div>
+      
+              
+
+            <hr>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer class="modal-footer-cad_cli">
+        <p>Defend sistemas de segurança Rua Presidente Vargas, 526 - Centro - Bagé, RS - CEP: 96400-410<br> "Intranet" desenvolvido por -Fábio Vasques</p>
+      </footer>
+      
+      </body>
+      </html>
+      
+  
+  
